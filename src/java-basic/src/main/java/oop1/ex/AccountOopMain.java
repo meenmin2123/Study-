@@ -11,7 +11,5 @@ public class AccountOopMain {
      account.withdraw(500);
 
      System.out.println("잔고 : " + account.balance);
-
-
     }
 }
