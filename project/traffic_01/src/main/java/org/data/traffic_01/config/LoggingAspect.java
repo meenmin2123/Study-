@@ -15,12 +15,12 @@ public class LoggingAspect {
     @Before("execution(* org.data.traffic_01.*(..))")
     public void before(JoinPoint joinPoint) {
         // 실행되는 메서드 호출
-        log.info("Report_Log Before : " + joinPoint.getSignature().getName());
+        log.info("==Log Before : " + joinPoint.getSignature().getName()+"==");
     }
 
     @After("execution(* org.data.traffic_01.*(..))")
     public void after(JoinPoint joinPoint) {
-        log.info("Report_Log After : " + joinPoint.getSignature().getName());
+        log.info("==Log After : " + joinPoint.getSignature().getName()+"==");
     }
 
 }
