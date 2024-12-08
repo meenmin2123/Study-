@@ -8,6 +8,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api")
 public class TrafficController {
+
     @GetMapping("/greet")
     public ResponseEntity<String> greet() {
         return ResponseEntity.ok("Hello from Spring Boot!");

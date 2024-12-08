@@ -1,0 +1,30 @@
+/* title */
+.pageTitle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* form */
+.formSection {
+    margin: auto;
+    width: 300px;
+    background-color: aqua;
+    display: flex;
+    top: 50;
+}
+
+.formbox1, .formbox2 {
+    text-align: left;
+}
+
+/* form - label */
+.formLabel1 , .formLabel2 {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* form - input */
+.formCtrlId, .formCtrlPw {
+    width: 300px;
+    margin: auto;
+}
