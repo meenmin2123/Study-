@@ -13,11 +13,15 @@ public class Library {
         System.out.println("bookCount: " + bookCount);
         System.out.println("books.length: " + books.length);
 
-        if (bookCount < books.length) {
-            books[bookCount++] = new Book(title, author);
-        } else {
+        // 검증 로직
+        if (bookCount >= books.length) {
             System.out.println("도서관 저장 공간이 부족합니다.");
+            return;
         }
+
+        // 정상 로직 처리
+        books[bookCount++] = new Book(title, author);
+
     }
 
     public void showBooks() {
