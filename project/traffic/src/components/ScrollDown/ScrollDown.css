@@ -41,9 +41,10 @@ a.registerTag {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(6px); /* 아래로 이동 */
+        transform: translateY(10px); /* 아래로 이동 */
     }
     100% {
         transform: translateY(0);
     }
 }
+ 
