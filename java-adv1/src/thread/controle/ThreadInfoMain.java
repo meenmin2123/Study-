@@ -19,7 +19,7 @@ public class ThreadInfoMain {
         // myThread 스레드
         Thread myThread = new Thread(new HelloRunnable(), "myThread");
         log("mainThread = " + myThread);
-        log("mainThread.threadId() =" + myThread.getName());
+        log("mainThread.threadId() =" + myThread.threadId());
         log("mainThread.getName() =" + myThread.getName());
         log("mainThread.getPriority() =" + myThread.getPriority());
         log("mainThread.getThreadGroup() =" + myThread.getThreadGroup());
